@@ -23,10 +23,12 @@ else
   VOPTS=(-profile:v high -level:v 4.2 -b:v 16M -maxrate 22M -bufsize 32M)
 fi
 
+if [ -z "${AFM_ENCODE_ONLY:-}" ]; then  # AFM_ENCODE_ONLY=1 re-encodes existing frames
 rm -rf "$FRAMES"
 npx remotion render src/index.ts AFMCommercial "$FRAMES" \
   --sequence --image-format=png --scale="$SCALE" --concurrency="$CONC" --gl=swangle \
   ${BROWSER:+--browser-executable="$BROWSER"} --log=info
+fi
 
 # Remotion names frames element-000.png … element-899.png
 PATTERN="$FRAMES/element-%03d.png"

@@ -37,13 +37,16 @@ T = json.load(open("config/timeline.json"))
 raw = subprocess.run(["ffmpeg", "-v", "error", "-i", f, "-ac", "1", "-ar", "48000", "-f", "f32le", "-"], capture_output=True).stdout
 x = np.frombuffer(raw, np.float32)
 sr = 48000
-hop = 240  # 5 ms
-e = np.array([np.sqrt(np.mean(x[i:i + hop] ** 2)) for i in range(0, len(x) - hop, hop)])
+hop = 240  # 5 ms windows
+e = np.array([np.sqrt(np.mean(x[i:i + hop] ** 2)) + 1e-9 for i in range(0, len(x) - hop, hop)])
+db = 20 * np.log10(e)
 for name, t in [("impactReveal", T["cues"]["impactReveal"]), ("drop", T["cues"]["drop"]), ("impactEnd", T["cues"]["impactEnd"])]:
     i = int(t * sr / hop)
-    w = e[i - 40:i + 40]
-    d = np.diff(w)
-    onset = (i - 40 + int(np.argmax(d)) + 1) * hop / sr
-    print(f"{name:13s} scripted {t:6.3f}s  measured onset {onset:6.3f}s  offset {1000*(onset-t):+6.1f} ms")
+    pre = np.median(db[i - 30:i - 10])          # level 50-150 ms before the cue
+    k = i - 10
+    while k < i + 40 and db[k] < pre + 6:       # first 5 ms window 6 dB above the bed
+        k += 1
+    onset = k * hop / sr
+    print(f"{name:13s} scripted {t:6.3f}s  attack starts {onset:6.3f}s  offset {1000*(onset-t):+6.1f} ms  (bed {pre:5.1f} dBFS -> {db[k]:5.1f})")
 print(f"audio length {len(x)/sr:.3f}s")
 EOF

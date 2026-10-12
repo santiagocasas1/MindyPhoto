@@ -75,6 +75,8 @@ AFM_BRAND_Project/
 └── tools/
     ├── prepare_assets.py    # descarga logo y fotos del sitio y los recorta
     ├── render.sh            # render de frames + encode final (1080 o 4k)
+    ├── qa.sh / frame_diff.py# verificación técnica y visual del MP4 y de los frames
+    ├── bench.mjs            # medición de tiempo por cuadro
     └── stills.mjs           # render rápido de cuadros sueltos para revisión
 ```
 
@@ -104,7 +106,17 @@ AFM_BROWSER=/ruta/a/chrome-headless-shell bash tools/render.sh 1080
 AFM_BROWSER=/ruta/a/chrome-headless-shell bash tools/render.sh 4k
 ```
 
-`AFM_BROWSER` es opcional: sin esa variable, Remotion descarga su propio Chrome headless. `AFM_CONCURRENCY` define cuántos cuadros se renderizan en paralelo (por defecto, 3).
+`AFM_BROWSER` es opcional: sin esa variable, Remotion descarga su propio Chrome headless. `AFM_CONCURRENCY` define cuántos cuadros se renderizan en paralelo (por defecto, 2). `AFM_ENCODE_ONLY=1` vuelve a codificar los cuadros existentes sin renderizar.
+
+**Rendimiento (máquina sin GPU, 4 núcleos):** el WebGL corre por software (SwiftShader). Un único proceso de navegador comparte un solo proceso gráfico, así que conviene dividir el render en dos procesos con rangos distintos. Con eso se llega a ~1 s por cuadro:
+
+```bash
+npx remotion render src/index.ts AFMCommercial out/frames_1080 --sequence --image-format=png --frames=0-449   --concurrency=1 --gl=swangle &
+npx remotion render src/index.ts AFMCommercial out/frames_1080 --sequence --image-format=png --frames=450-899 --concurrency=1 --gl=swangle
+AFM_ENCODE_ONLY=1 bash tools/render.sh 1080
+```
+
+Control de calidad: `bash tools/qa.sh ../output/AFM_BRAND_Reels_1080p.mp4` y `python3 tools/frame_diff.py out/frames_1080`. Para revisar cuadros sueltos: `node tools/stills.mjs out/stills 0 120 300`.
 
 ### Especificación de exportación
 

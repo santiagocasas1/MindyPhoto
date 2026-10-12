@@ -372,7 +372,9 @@ def build():
     place(sfx, whoosh(0.85, 200, 3000, gain=0.22), 2.7)
     place(sfx, riser(1.5, 0.30), 2.5)
     place(sfx, reverse_swell(0.6, 0.18), 3.4)
-    place(sfx, impact(1.0, 2.6, 49), C["impactReveal"], send=0.5)
+    # sub hits are placed one frame early so the perceived hit (~50 ms into the attack) lands on the cut
+    HIT = 1 / T["fps"]
+    place(sfx, impact(1.0, 2.6, 49), C["impactReveal"] - HIT, send=0.5)
     place(sfx, shimmer(0.9, 0.06), C["impactReveal"] + 0.05, send=0.7)
     place(sfx, riser(1.1, 0.26), 6.9)
     place(sfx, impact(0.55, 1.4, 55), C["drop"], send=0.3)
@@ -401,7 +403,7 @@ def build():
     d0, d1 = C["dive"]
     place(sfx, reverse_swell(d1 - d0 + 0.5, 0.32), d0 - 0.5)
     place(sfx, whoosh(d1 - d0 + 0.25, 200, 9000, gain=0.32, pan0=0, pan1=0, q=0.8), d0 - 0.1)
-    place(sfx, impact(1.05, 3.6, 46), C["impactEnd"], send=0.65)
+    place(sfx, impact(1.05, 3.6, 46), C["impactEnd"] - HIT, send=0.65)
     l0, l1 = C["logoDraw"]
     place(sfx, shimmer(l1 - l0 + 0.6, 0.07), l0, send=0.8)
     place(sfx, chime([nm("D6"), nm("F#6"), nm("A6")], 0.09, 0.06, 0.8), 27.45, send=0.7)
