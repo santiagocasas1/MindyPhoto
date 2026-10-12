@@ -140,7 +140,7 @@ function productsAt(rig: Rig): Obj[] {
     }
     // order scene: each hero swoops back in from off-frame and drops into its cart row
     const k = i;
-    const f = prog(t, C.cartAdds[k] - 0.6, C.cartAdds[k] + 0.02, ease.inOut);
+    const f = prog(t, C.cartAdds[k] - 0.45, C.cartAdds[k] + 0.02, ease.inOut);
     if (f > 0 && f < 1) {
       const from = V(side * 120, 60 - k * 18, 190);
       const cart = V((46 - UW_ / 2) / UW_ * PHONE.dw, (UH_ / 2 - (190 + k * 70 + 31)) / UH_ * PHONE.dh, PHONE.t / 2 + 2).applyMatrix4(rig.phone);
