@@ -1,0 +1,215 @@
+{
+  "_doc": "Single source of truth for picture and sound. Times in seconds. 120 BPM -> 1 beat = 0.5 s, 1 bar = 2 s.",
+  "fps": 30,
+  "duration": 30,
+  "bpm": 120,
+  "width": 1080,
+  "height": 1920,
+  "scenes": {
+    "hook": [
+      0,
+      4
+    ],
+    "reveal": [
+      4,
+      8
+    ],
+    "explore": [
+      8,
+      18
+    ],
+    "order": [
+      18,
+      22
+    ],
+    "advisor": [
+      22,
+      26
+    ],
+    "end": [
+      26,
+      30
+    ]
+  },
+  "cues": {
+    "arcSweep": [
+      0.0,
+      0.85
+    ],
+    "screenWake": 0.9,
+    "notification": 1.25,
+    "tapNotification": 2.6,
+    "impactReveal": 4.0,
+    "taglineIn": 5.2,
+    "tapExplore": 7.35,
+    "drop": 8.0,
+    "brandBeats": [
+      9.0,
+      10.5,
+      12.0,
+      13.5,
+      15.0,
+      16.5
+    ],
+    "addToCart": [
+      9.78,
+      11.28,
+      12.78,
+      14.28,
+      15.78,
+      17.28
+    ],
+    "tapCart": 17.85,
+    "cartAdds": [
+      18.25,
+      18.5,
+      18.75,
+      19.0,
+      19.25,
+      19.5
+    ],
+    "tapAdvisor": 21.0,
+    "chatOpen": 21.1,
+    "chatMessages": [
+      22.25,
+      22.95,
+      24.05,
+      25.0
+    ],
+    "typing": [
+      23.3,
+      24.0
+    ],
+    "screenToWhite": 25.45,
+    "dive": [
+      25.6,
+      26.05
+    ],
+    "impactEnd": 26.05,
+    "logoDraw": [
+      26.1,
+      26.9
+    ],
+    "endTagline": 27.15,
+    "endCta": 27.55,
+    "holdFrom": 28.4
+  },
+  "copy": {
+    "hook": [
+      "¿Antojo",
+      "de Corea?"
+    ],
+    "notificationTitle": "AFM BRAND",
+    "notificationBody": "Tocá para explorar el catálogo 🇰🇷",
+    "welcome": "BIENVENIDO A AFM BRAND",
+    "tagline": "¡Tu puente directo a lo mejor de Corea y el Mundo!",
+    "explore": "Explorá",
+    "order": "Armá tu pedido",
+    "advisor": "Hablá con un asesor",
+    "chat": [
+      {
+        "from": "me",
+        "text": "¡Hola! Quiero hacer un pedido 🙌"
+      },
+      {
+        "from": "me",
+        "text": "¿También venden por mayor?"
+      },
+      {
+        "from": "afm",
+        "text": "¡Hola! Sí 😊 Te paso el catálogo y toda la info para mayoristas 📦"
+      },
+      {
+        "from": "me",
+        "text": "¡Genial, gracias!"
+      }
+    ],
+    "alcoholLegal": "BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS.",
+    "web": "afmbrand.com.ar",
+    "whatsapp": "WhatsApp +54 9 11 4066 8682",
+    "instagram": "@afmbrand.arg"
+  },
+  "brands": [
+    {
+      "key": "okf",
+      "name": "OKF",
+      "label": "BEBIDAS · CON GAS",
+      "hero": "8OKFSPWML",
+      "variants": [
+        "8OKFSPSTR",
+        "8OKFSPGAP"
+      ],
+      "tint": "#E8473C",
+      "side": 1
+    },
+    {
+      "key": "milkis",
+      "name": "Milkis",
+      "label": "BEBIDAS · LÁCTEO",
+      "hero": "8LOTMKORG",
+      "variants": [
+        "8LOTMKBAN",
+        "8LOTMKMEL"
+      ],
+      "tint": "#3B6FE0",
+      "side": -1
+    },
+    {
+      "key": "pepero",
+      "name": "Pepero",
+      "label": "CHOCOLATES",
+      "hero": "8LOTPPSNW",
+      "variants": [],
+      "tint": "#38A4E6",
+      "side": 1
+    },
+    {
+      "key": "htb",
+      "name": "HTB",
+      "label": "BEBIDAS · JUGO",
+      "hero": "8HTBCOPEA",
+      "variants": [
+        "8HTBGRCHE",
+        "8HTBCOGRA"
+      ],
+      "tint": "#F06EA0",
+      "side": -1
+    },
+    {
+      "key": "soonhari",
+      "name": "Soonhari",
+      "label": "ALCOHÓLICAS · SOJU",
+      "hero": "8LOTSHSTR",
+      "variants": [
+        "8LOTSHAPL",
+        "8LOTSHGRA"
+      ],
+      "tint": "#2E9E4F",
+      "side": 1,
+      "alcohol": true
+    },
+    {
+      "key": "saero",
+      "name": "Saero",
+      "label": "ALCOHÓLICAS · SOJU",
+      "hero": "8LOTSRORG",
+      "variants": [
+        "8LOTSRLYC",
+        "8LOTSRAPC"
+      ],
+      "tint": "#E9A9A4",
+      "side": -1,
+      "alcohol": true
+    }
+  ],
+  "palette": {
+    "afmRed": "#EC090A",
+    "siteRed": "#D62210",
+    "ink": "#0A0A0B",
+    "graphite": "#0B0B0E",
+    "charcoal": "#17171C",
+    "titanium": "#3B3B41",
+    "porcelain": "#F6F4F0",
+    "white": "#FFFFFF"
+  }
+}

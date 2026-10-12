@@ -1,0 +1,384 @@
+{
+ "source": "https://afmbrand.com.ar/ (catálogo oficial de AFM BRAND, tienda Tiendanube)",
+ "retrieved": "2026-10-12",
+ "products": [
+  {
+   "brand": "OKF",
+   "brandKey": "okf",
+   "sku": "8OKFSPWML",
+   "name": "Gaseosa OKF Sparkling Watermelon 350ml",
+   "page": "https://afmbrand.com.ar/productos/8OKFSPWML/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-63-84aa66750f734395a917785279555353.png",
+   "file": "products/okf_8OKFSPWML.webp",
+   "size": [
+    713,
+    1264
+   ],
+   "ui": "ui/okf_8OKFSPWML.webp"
+  },
+  {
+   "brand": "OKF",
+   "brandKey": "okf",
+   "sku": "8OKFSPSTR",
+   "name": "Gaseosa OKF Sparkling Strawberry 350ml",
+   "page": "https://afmbrand.com.ar/productos/8OKFSPSTR/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-59-85b43a2a3eaeb8438417785277715513.png",
+   "file": "products/okf_8OKFSPSTR.webp",
+   "size": [
+    712,
+    1266
+   ],
+   "ui": "ui/okf_8OKFSPSTR.webp"
+  },
+  {
+   "brand": "OKF",
+   "brandKey": "okf",
+   "sku": "8OKFSPGAP",
+   "name": "Gaseosa OKF Sparkling Green Apple 350ml",
+   "page": "https://afmbrand.com.ar/productos/8OKFSPGAP/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-71-19533c6a1c73ad9b3717785283292175.png",
+   "file": "products/okf_8OKFSPGAP.webp",
+   "size": [
+    688,
+    1192
+   ],
+   "ui": "ui/okf_8OKFSPGAP.webp"
+  },
+  {
+   "brand": "OKF",
+   "brandKey": "okf",
+   "sku": "8OKFSPLYC",
+   "name": "Gaseosa OKF Sparkling Sabor Lychee 350ml",
+   "page": "https://afmbrand.com.ar/productos/8OKFSPLYC/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-79-33e5e0123df02ab74217785286457675.png",
+   "file": "products/okf_8OKFSPLYC.webp",
+   "size": [
+    705,
+    1252
+   ],
+   "ui": "ui/okf_8OKFSPLYC.webp"
+  },
+  {
+   "brand": "OKF",
+   "brandKey": "okf",
+   "sku": "8OKFSPAMG",
+   "name": "Gaseosa OKF Sparkling Apple Mango 350ml",
+   "page": "https://afmbrand.com.ar/productos/8OKFSPAMG/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-2026-05-11t163356-336-acbdf46c52d132976f17785280392177.png",
+   "file": "products/okf_8OKFSPAMG.webp",
+   "size": [
+    753,
+    1276
+   ],
+   "ui": "ui/okf_8OKFSPAMG.webp"
+  },
+  {
+   "brand": "OKF",
+   "brandKey": "okf",
+   "sku": "8OKFSPALO",
+   "name": "Gaseosa OKF Sparkling Sabor Aloe 350ml",
+   "page": "https://afmbrand.com.ar/productos/8OKFSPALO/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-2026-05-11t163325-278-a830799d80e785099417785280092419.png",
+   "file": "products/okf_8OKFSPALO.webp",
+   "size": [
+    736,
+    1280
+   ],
+   "ui": "ui/okf_8OKFSPALO.webp"
+  },
+  {
+   "brand": "Milkis",
+   "brandKey": "milkis",
+   "sku": "8LOTMKORG",
+   "name": "Bebida Coreana Milkis Sabor Original 250ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTMKORG/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t163142-694-8bfe52e97875cc94c917785177642546.png",
+   "file": "products/milkis_8LOTMKORG.webp",
+   "size": [
+    511,
+    1280
+   ],
+   "ui": "ui/milkis_8LOTMKORG.webp"
+  },
+  {
+   "brand": "Milkis",
+   "brandKey": "milkis",
+   "sku": "8LOTMKBAN",
+   "name": "Bebida Coreana Milkis Sabor Banana 250ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTMKBAN/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t162125-818-df85206f5e0d48666c17785176511158.png",
+   "file": "products/milkis_8LOTMKBAN.webp",
+   "size": [
+    498,
+    1273
+   ],
+   "ui": "ui/milkis_8LOTMKBAN.webp"
+  },
+  {
+   "brand": "Milkis",
+   "brandKey": "milkis",
+   "sku": "8LOTMKMEL",
+   "name": "Gaseosa Coreana Milkis Sabor Melón 250ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTMKMEL/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t162909-557-13c8e82cd2a3192d0217785177449327.png",
+   "file": "products/milkis_8LOTMKMEL.webp",
+   "size": [
+    505,
+    1280
+   ],
+   "ui": "ui/milkis_8LOTMKMEL.webp"
+  },
+  {
+   "brand": "Milkis",
+   "brandKey": "milkis",
+   "sku": "8LOTMKPEA",
+   "name": "Gaseosa Coreana Milkis Sabor Durazno 250ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTMKPEA/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t163316-160-09079ef93374b4d76017786126184621.png",
+   "file": "products/milkis_8LOTMKPEA.webp",
+   "size": [
+    495,
+    1277
+   ],
+   "ui": "ui/milkis_8LOTMKPEA.webp"
+  },
+  {
+   "brand": "Milkis",
+   "brandKey": "milkis",
+   "sku": "8LOTMKGRA",
+   "name": "Gaseosa Coreana Milkis Sabor Uva 250ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTMKGRA/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t162646-076-ca9d16cf226dae6fa417786125951851.png",
+   "file": "products/milkis_8LOTMKGRA.webp",
+   "size": [
+    502,
+    1280
+   ],
+   "ui": "ui/milkis_8LOTMKGRA.webp"
+  },
+  {
+   "brand": "Pepero",
+   "brandKey": "pepero",
+   "sku": "8LOTPPCCK",
+   "name": "Palitos Pepero Sabor Choco Cookie Lotte Caja 32g",
+   "page": "https://afmbrand.com.ar/productos/8LOTPPCCK/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-08t113120-496-9559397447d119c04717785243382477.png",
+   "file": "products/pepero_8LOTPPCCK.webp",
+   "size": [
+    785,
+    1277
+   ],
+   "ui": "ui/pepero_8LOTPPCCK.webp"
+  },
+  {
+   "brand": "Pepero",
+   "brandKey": "pepero",
+   "sku": "8LOTPPSNW",
+   "name": "Palitos Pepero Snowy Almond Chocolate Blanco Lotte 32g",
+   "page": "https://afmbrand.com.ar/productos/8LOTPPSNW/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-46-843c3e78021dce674817786141484274.png",
+   "file": "products/pepero_8LOTPPSNW.webp",
+   "size": [
+    710,
+    1260
+   ],
+   "ui": "ui/pepero_8LOTPPSNW.webp"
+  },
+  {
+   "brand": "HTB",
+   "brandKey": "htb",
+   "sku": "8HTBCOGRA",
+   "name": "Bebida Coreana Coco Palm Sabor Uva HTB 340ml",
+   "page": "https://afmbrand.com.ar/productos/8HTBCOGRA/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-42-1e0c7646b02e24998817785151032112.png",
+   "file": "products/htb_8HTBCOGRA.webp",
+   "size": [
+    673,
+    1276
+   ],
+   "ui": "ui/htb_8HTBCOGRA.webp"
+  },
+  {
+   "brand": "HTB",
+   "brandKey": "htb",
+   "sku": "8HTBCOPEA",
+   "name": "Bebida Coreana Coco Palm Sabor Durazno HTB 340ml",
+   "page": "https://afmbrand.com.ar/productos/8HTBCOPEA/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-2026-05-11t130242-320-1b0030628c6ed12c2817785153650112.png",
+   "file": "products/htb_8HTBCOPEA.webp",
+   "size": [
+    698,
+    1278
+   ],
+   "ui": "ui/htb_8HTBCOPEA.webp"
+  },
+  {
+   "brand": "HTB",
+   "brandKey": "htb",
+   "sku": "8HTBCOYOG",
+   "name": "Bebida Coreana Coco Palm White Yogurt HTB 340ml",
+   "page": "https://afmbrand.com.ar/productos/8HTBCOYOG/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-81-a04453593a621f653d17785153976944.png",
+   "file": "products/htb_8HTBCOYOG.webp",
+   "size": [
+    676,
+    1276
+   ],
+   "ui": "ui/htb_8HTBCOYOG.webp"
+  },
+  {
+   "brand": "HTB",
+   "brandKey": "htb",
+   "sku": "8HTBGRCHE",
+   "name": "Jugo Coreano Con Trozos Grape Juice Chewed Grape HTB 340ml",
+   "page": "https://afmbrand.com.ar/productos/8HTBGRCHE/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-82-fd4db237b32b541bbb17785154224956.png",
+   "file": "products/htb_8HTBGRCHE.webp",
+   "size": [
+    701,
+    1266
+   ],
+   "ui": "ui/htb_8HTBGRCHE.webp"
+  },
+  {
+   "brand": "HTB",
+   "brandKey": "htb",
+   "sku": "8HTBGRPEA",
+   "name": "Jugo Coreano Con Trozos Peach Juice Chewed Peach HTB 340ml",
+   "page": "https://afmbrand.com.ar/productos/8HTBGRPEA/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-83-7bac25b461c6a387df17785154544395.png",
+   "file": "products/htb_8HTBGRPEA.webp",
+   "size": [
+    663,
+    1254
+   ],
+   "ui": "ui/htb_8HTBGRPEA.webp"
+  },
+  {
+   "brand": "Soonhari",
+   "brandKey": "soonhari",
+   "sku": "8LOTSHAPL",
+   "name": "Soju Coreano Premium Soonhari Sabor Manzana Lotte 360ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSHAPL/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t164142-581-c46f7cc0f6a218aace17785179479358.png",
+   "file": "products/soonhari_8LOTSHAPL.webp",
+   "size": [
+    399,
+    1280
+   ],
+   "ui": "ui/soonhari_8LOTSHAPL.webp"
+  },
+  {
+   "brand": "Soonhari",
+   "brandKey": "soonhari",
+   "sku": "8LOTSHAPM",
+   "name": "Soju Coreano Soonhari Apple Mango Lotte 360ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSHAPM/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-2026-05-11t134814-854-44b4d8b219e9ff6e8b17785181141206.png",
+   "file": "products/soonhari_8LOTSHAPM.webp",
+   "size": [
+    401,
+    1280
+   ],
+   "ui": "ui/soonhari_8LOTSHAPM.webp"
+  },
+  {
+   "brand": "Soonhari",
+   "brandKey": "soonhari",
+   "sku": "8LOTSHGRA",
+   "name": "Soju Coreano Premium Soonhari Uva Lotte 360ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSHGRA/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t164404-921-c623f4d57d14efecae17785183064891.png",
+   "file": "products/soonhari_8LOTSHGRA.webp",
+   "size": [
+    402,
+    1280
+   ],
+   "ui": "ui/soonhari_8LOTSHGRA.webp"
+  },
+  {
+   "brand": "Soonhari",
+   "brandKey": "soonhari",
+   "sku": "8LOTSHSTR",
+   "name": "Soju Coreano Premium Soonhari Frutilla Lotte 360ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSHSTR/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-2026-05-11t135424-325-1b4f9c2156c1c5542417785184710589.png",
+   "file": "products/soonhari_8LOTSHSTR.webp",
+   "size": [
+    402,
+    1280
+   ],
+   "ui": "ui/soonhari_8LOTSHSTR.webp"
+  },
+  {
+   "brand": "Soonhari",
+   "brandKey": "soonhari",
+   "sku": "8LOTSHYGT",
+   "name": "Soju Coreano Premium Soonhari Yogurt Lotte 360ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSHYGT/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t164524-040-d2c50f9c162eb3fae817785184948026.png",
+   "file": "products/soonhari_8LOTSHYGT.webp",
+   "size": [
+    405,
+    1280
+   ],
+   "ui": "ui/soonhari_8LOTSHYGT.webp"
+  },
+  {
+   "brand": "Saero",
+   "brandKey": "saero",
+   "sku": "8LOTSRORG",
+   "name": "Soju Coreano Saero Original Botella Lotte 375ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSRORG/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/x24-57-89faf0a29afa1863de17786149242476.png",
+   "file": "products/saero_8LOTSRORG.webp",
+   "size": [
+    421,
+    1277
+   ],
+   "ui": "ui/saero_8LOTSRORG.webp"
+  },
+  {
+   "brand": "Saero",
+   "brandKey": "saero",
+   "sku": "8LOTSRAPC",
+   "name": "Soju Saero Sabor Damasco Botella Lotte 375ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSRAPC/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t163744-897-1804405d17cfa9a91017785178767327.png",
+   "file": "products/saero_8LOTSRAPC.webp",
+   "size": [
+    423,
+    1280
+   ],
+   "ui": "ui/saero_8LOTSRAPC.webp"
+  },
+  {
+   "brand": "Saero",
+   "brandKey": "saero",
+   "sku": "8LOTSRKIW",
+   "name": "Soju Saero Sabor Kiwi Botella Lotte 375ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSRKIW/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t163658-669-f48321906e0edb952017785179076010.png",
+   "file": "products/saero_8LOTSRKIW.webp",
+   "size": [
+    424,
+    1280
+   ],
+   "ui": "ui/saero_8LOTSRKIW.webp"
+  },
+  {
+   "brand": "Saero",
+   "brandKey": "saero",
+   "sku": "8LOTSRLYC",
+   "name": "Soju Saero Sabor Lichi Botella Lotte 375ml",
+   "page": "https://afmbrand.com.ar/productos/8LOTSRLYC/",
+   "image": "https://acdn-us.mitiendanube.com/stores/006/238/130/products/diseno-sin-titulo-2026-05-07t163820-241-95336ae53c8541236317785179237021.png",
+   "file": "products/saero_8LOTSRLYC.webp",
+   "size": [
+    423,
+    1280
+   ],
+   "ui": "ui/saero_8LOTSRLYC.webp"
+  }
+ ]
+}
