@@ -1,0 +1,28 @@
+{
+  "name": "pika-ad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PIKA K-Store — publicidad vertical 9:16 de 30 s hecha con Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "python3 audio/compose.py",
+    "render": "remotion render PikaAd out/pika-ad-1080x1920.mp4",
+    "render:4k": "remotion render PikaAd out/pika-ad-2160x3840.mp4 --scale=2",
+    "still": "remotion still PikaAd out/poster.png --frame=150"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-kr": "5.2.8",
+    "@fontsource/poppins": "5.2.7",
+    "@fontsource/space-mono": "5.2.9",
+    "@remotion/cli": "4.0.535",
+    "@remotion/motion-blur": "4.0.535",
+    "@remotion/noise": "4.0.535",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
